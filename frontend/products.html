@@ -29,7 +29,8 @@
 <script src="script.js"></script>
 <script>
 // Fetch products from backend API
-fetch('http://localhost:5000/api/products')
+fetch('https://ecommerce-hdok.onrender.com/api/products')
+
   .then(response => response.json())
   .then(products => {
     const container = document.getElementById('product-list');
